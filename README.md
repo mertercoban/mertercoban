@@ -1,4 +1,4 @@
-<h1 align="center">Hey There 👋</h1>
+<h1 align="center">Hey There 👋 I'm Merter</h1>
 
 ###
 
@@ -6,23 +6,11 @@
 
 ###
 
-<p align="left">I'm Merter Çoban</p>
+<h3 align="center">🛠 Language and tools</h3>
 
 ###
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/mertercoban" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-</div>
-
-###
-
-<h3 align="left">🛠 Language and tools</h3>
-
-###
-
-<div align="left">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
