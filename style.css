@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #eaeaea;
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); /* Gradient: Dark Blue Shades */
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #0f3460, #1c1c2e); /* Dark Blue to Deep Purple */
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    border-bottom: 2px solid #9b5de5; /* Neon Purple Border */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #00ffff; /* Neon Cyan Text */
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #bfbfbf;
+}
+
+/* Section Styling */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #bad5fc;
+    border-bottom: 2px solid #bad5fc; /* Neon Magenta Border */
+    display: inline-block;
+}
+
+/* About Section */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0c0c0b; /* Neon Green Border */
+}
+
+/* Projects Section */
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-item {
+    background: linear-gradient(135deg, #373752, #46466e); /* Gradient: Deep Purple Shades */
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #292929;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5), 0 0 15px rgba(0, 255, 255, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.6), 0 0 25px rgba(0, 255, 255, 0.8);
+}
+
+.project-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #1fabab; /* Neon Magenta Text */
+}
+
+.project-item p {
+    margin-bottom: 10px;
+}
+
+.project-link {
+    color: #00ffff; /* Neon Cyan */
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: linear-gradient(135deg, #0f3460, #1a1a2e); /* Dark Blue to Deep Purple */
+    color: #fff;
+    border-top: 2px solid #00f5d4; /* Neon Cyan Border */
+}
+
+.cv-link {
+    color: #1fabab; /* Neon Magenta */
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 10px #1fabab, 0 0 20px #1fabab;
+}
+
+.cv-link:hover {
+    text-decoration: underline;
+    color: #00ffff; /* Neon Cyan Hover */
+}
+
+/* Experience Section *
+.experience-list {
+    list-style: none;
+    color: #ccc;
+}
+
+.experience-list li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.experience-list li::before {
+    content: "•";
+    color: #bad5fc;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5rem;
+}*/
